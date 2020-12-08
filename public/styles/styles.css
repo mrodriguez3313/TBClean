@@ -14,7 +14,20 @@
   height: auto;
 }
 
-.w-100 {
-  width: 100% !important;
-  height: 75vh;
+.carousel-inner>.carousel-item>img {
+  width: 400px !important;
+  height: 480px !important;
+  margin: auto;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  /*, .carousel-indicators */
+  filter: invert(100%);
 }
