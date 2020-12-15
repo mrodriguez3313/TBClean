@@ -31,3 +31,23 @@
   /*, .carousel-indicators */
   filter: invert(100%);
 }
+
+body{
+  background-color:#ffe0d8;
+}
+
+.navbar{
+  background-color: #fff3b2;
+}
+
+h1 p{
+  background-color: #41584b;
+}
+
+.title{
+  text-align: center;
+}
+
+.form{
+  text-align: center;
+}
