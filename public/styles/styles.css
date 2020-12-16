@@ -31,3 +31,8 @@
   /*, .carousel-indicators */
   filter: invert(100%);
 }
+
+.service-item {
+  height: 84px;
+  border-style: solid;
+}
