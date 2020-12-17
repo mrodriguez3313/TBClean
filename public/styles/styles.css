@@ -1,3 +1,7 @@
+.navbar {
+  background-color: #ffd1dc;
+}
+
 .contact-header {
   margin-top: .8rem;
   font-size: 1.3rem;
@@ -32,7 +36,26 @@
   filter: invert(100%);
 }
 
+.jumbotron-service {
+  background-color: #ffd1dc;
+}
+
+.img-service {
+  width: 154px;
+  height: 120px;
+  margin: 16px auto;
+}
+
 .service-item {
-  height: 84px;
+  border-radius: 10%;
   border-style: solid;
+  margin: 0 auto;
+  background-color: #ffd1dc;
+}
+
+.service-text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  max-height: 100px;
 }
