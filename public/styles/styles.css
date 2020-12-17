@@ -2,7 +2,7 @@ html, body {
   background-color: #ffedff;
 }
 
-p, h3 {
+p, h3, h5 {
   font-family: 'Gabriela', serif, 'Alegreya', serif;
 }
 
@@ -11,15 +11,15 @@ p, h3 {
   font-size: 1.3rem;
 }
 
+.brand {
+  font-family: 'Dancing Script', cursive, 'Arizonia', cursive;
+}
+
 .img-logo {
   margin-top: 1rem;
   border-radius: 5px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 25rem;
   max-width: 100%;
-  height: auto;
 }
 
 .carousel-inner>.carousel-item>img {
