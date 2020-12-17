@@ -7,7 +7,7 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="public/styles/styles.css" />
+  <link rel="stylesheet" href="../styles/styles.css" />
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -21,23 +21,35 @@
           <a class="nav-item contact-header">📞 (925) 848-6748</a>
           <nav class="navbar justify-content-end">
             <a class="nav-item nav-link" href="../../index.html">Home</a>
-            <a class="nav-item nav-link active disabled" href="">Services</a>
+            <a class="nav-item nav-link" href="">Services</a>
             <a class="nav-item nav-link" href="about.html">About Us</a>
-            <a class="nav-item nav-link " href="contact.html">Contact</a>
+            <a class="nav-item nav-link active disabled" href="contact.html">Contact</a>
           </nav>
         </div>
       </div>
-
-      <h1>Contact Us</h1>
-      <form action="mailto:#" method="POST" enctype="text/plain">
-            <label>Your Name:</label>
+      <div class="container">
+        <h1 class="title">Contact Us</h1>
+        <!--gonna add some formatting to the form in a bit-->
+        <div class="form">
+          <form action="mailto:#" method="POST" enctype="text/plain">
+            <label for="YName">Your Name:</label>
             <input type="text" name="YourName" value=""><br>
-            <label>Your Email:</label>
+            <label for="Email">Your Email:</label>
             <input type="email" name="YourEmail" value=""><br>
-            <label>Your Message:</label>
+            <label for="service">What service are you looking for?</label>
+            <select id="service" name="service">
+              <option value="Dusting">Dusting and Sanitzing</option>
+              <option value="Floor">Floor Cleaning</option>
+              <option value="bath">Bathroom</option>
+              <option value="Living">Living Space</option>
+              <option value="other">Other</option>
+            </select>
+            <br>
+            <label for="message">Your Message:</label>
             <textarea name="name" cols="30" rows="5"></textarea><br>
             <input type="submit" name="">
         </form>
-
+        </div>
+      </div>
 </body>
 </html>
