@@ -11,6 +11,10 @@ p, h3, h5 {
   font-size: 1.3rem;
 }
 
+.footer {
+  margin-top: 32px;
+}
+
 .brand {
   font-family: 'Dancing Script', cursive, 'Arizonia', cursive;
 }
@@ -26,12 +30,7 @@ p, h3, h5 {
   width: 400px !important;
   height: 480px !important;
   margin: auto;
-}
-
-.top-left {
-  position: absolute;
-  top: 8px;
-  left: 16px;
+  border-radius: 5px;
 }
 
 .carousel-control-next,
