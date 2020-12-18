@@ -8,41 +8,52 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500&family=Arizonia&family=Dancing+Script:wght@700&family=Gabriela&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="public/styles/styles.css" />
   <title>Top To Bottom Cleaning</title>
 </head>
 
 <body class="container-flex">
   <div class="border-bottom">
-    <div class="navbar" id="navbarText">
-      <a class="nav-item contact-header">📞 (925) 848-6748</a>
-      <nav class="navbar justify-content-end">
-        <a class="nav-item nav-link active disabled" href="">Home</a>
-        <a class="nav-item nav-link " href="public/views/services.html">Services</a>
-        <a class="nav-item nav-link " href="public/views/about.html">About Us</a>
-        <a class="nav-item nav-link " href="public/views/contact.html">Contact</a>
-      </nav>
+    <nav class="navbar navbar-expand-lg navbar-default navbar-light" id="navbarText">
+      <a class="navbar-brand contact-header">📞 (925) 848-6748</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-end" id="navbarNav">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="">Home</a>
+          <a class="nav-item nav-link" href="public/views/services.html">Services</a>
+          <a class="nav-item nav-link" href="public/views/about.html">About Us</a>
+          <a class="nav-item nav-link" href="public/views/contact.html">Contact</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="jumbotron jumbotron-service border-bottom">
+    <div class="container-sm text-center">
+      <h1 class="brand display-3">From top to Bottom Cleaning</h1>
+      <h3>Your Home's Sterility is our Tranquility.</h3>
+      <img class="img-logo img-fluid" src="public/images/pexels-curtis-adams-3773571.jpg" />
     </div>
   </div>
 
-  <div>
-    <img class="img-logo" src="public/images/pexels-curtis-adams-3773571.jpg" />
+  <div class="jumbotron jumbotron-service border-bottom">
+    <div class="container">
+      <h3 class="text-center font-weight-bold mb-4">We are following the guidelines and recommedations published by the CDC for cleaning and disinfecting to help our clients combat the COVID-19 virus and keep us all safe.</h3>
+      <h5 class="text-center font-weight-bold mt-3">See more info at <a href="https://www.cdc.gov/coronavirus/2019-ncov/prepare/cleaning-disinfection.html"
+          target="_blank">https://www.cdc.gov/coronavirus/2019-ncov/prepare/cleaning-disinfection.html</a>
+      </h5>
+    </div>
   </div>
 
-
-
   <div class="container">
-    <img />
-    <h3 class="text-center font-weight-bold">We are following the guidelines and recommedations published by the CDC for cleaning and disinfecting to help our clients combat the COVID-19 virus and keep us all safe.</h3>
-    <h5 class="text-center font-weight-bold">See more info at <a href="https://www.cdc.gov/coronavirus/2019-ncov/prepare/cleaning-disinfection.html" target="_blank">https://www.cdc.gov/coronavirus/2019-ncov/prepare/cleaning-disinfection.html</a></h5>
-
-    <p>
+    <p class="h3 mt-5 mb-5 text-center">
       Our top priority at From Top to Bottom Cleaning is <span class="font-weight-bold">quality</span>. We specialize in residential cleaning and have more than 20 years of experience. We tend to homes in the
       East Contra Costa County area inluding but not limited to: Antioch, Brentwood, Bay Point, Concord, Oakley, and Pittsburg.
     </p>
-  </div>
-
-  <div class="container">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -52,28 +63,16 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="d-block w-100" src="public/images/IMG_1878.png" alt="First slide">
-          <div class="top-left">
-            BEFORE
-          </div>
+          <img class="d-block w-100 img-fluid" src="public/images/IMG_1878.png" alt="First slide" />
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="public/images/IMG_1881.png" alt="Second slide">
-          <div class="top-left">
-            AFTER
-          </div>
+          <img class="d-block w-100 img-fluid" src="public/images/IMG_1881.png" alt="Second slide" />
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="public/images/IMG_1879.png" alt="Third slide">
-          <div class="top-left">
-            BEFORE
-          </div>
+          <img class="d-block w-100 img-fluid" src="public/images/IMG_1879.png" alt="Third slide" />
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="public/images/IMG_1880.png" alt="Fourth slide">
-          <div class="top-left">
-            AFTER
-          </div>
+          <img class="d-block w-100 img-fluid" src="public/images/IMG_1880.png" alt="Fourth slide" />
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -87,11 +86,16 @@
     </div>
   </div>
 
-
-  <div class="container">
-    <h6>Call us to schedule a consultation today!</h6>
+  <div class="jumbotron jumbotron-service border-bottom text-center">
+    <h1 class="display-4">Call us at (925) 848-6748 or <a href="public/views/contact.html">email us</a> to schedule a consultation today!</h1>
   </div>
 
+
+  <footer class="mt-auto footer">
+    <p class="text-muted text-center">This page was created by
+      <a class="text-muted" href="https://github.com/mrodriguez3313"> Marco Rodriguez </a> and <a class="text-muted" href="https://github.com/alancastilleja"> Alan Castilleja.</a>
+    </p>
+  </footer>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

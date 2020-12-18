@@ -8,6 +8,8 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500&family=Arizonia&family=Dancing+Script:wght@700&family=Gabriela&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../styles/styles.css" />
 
   <title>From top to Bottom Cleaning</title>
@@ -15,44 +17,80 @@
 
 <body class="container-flex">
   <div class="border-bottom">
-    <div class="navbar" id="navbarText">
-      <a class="nav-item contact-header">📞 (925) 848-6748</a>
-      <nav class="navbar justify-content-end">
-        <a class="nav-item nav-link" href="../../index.html">Home</a>
-        <a class="nav-item nav-link active disabled" href="">Services</a>
-        <a class="nav-item nav-link" href="about.html">About Us</a>
-        <a class="nav-item nav-link" href="contact.html">Contact</a>
-      </nav>
+    <nav class="navbar navbar-expand-lg navbar-default navbar-light" id="navbarText">
+      <a class="navbar-brand contact-header">📞 (925) 848-6748</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-end" id="navbarNav">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="../../index.html">Home</a>
+          <a class="nav-item nav-link active" href="">Services</a>
+          <a class="nav-item nav-link" href="about.html">About Us</a>
+          <a class="nav-item nav-link" href="contact.html">Contact</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
+
+  <div class="jumbotron jumbotron-service border-bottom">
+    <div class="container">
+      <h1 class="display-1 services-title">Services</h1>
+      <h3 class="services-description">Our cleaning services strech far and wide. We offer <span class="font-weight-bold">free</span> home estimates so we can come out and give you a more accurate cost analysis. We are available on <span
+          class="font-weight-bold">Weekly,
+          Bi-Weekly, or Monthly</span> appointments.</h3>
     </div>
   </div>
 
-  <div class="container">
-    <h1>Services</h1>
-    <h3>Our cleaning services strech far and wide. We offer <b>free</b> home estimates so we can come out and give you a more accurate cost analysis. We are available on <b>Weekly,
-        Bi-Weekly, or Monthly</b> appointments.
-    </h3>
+  <div class="border-bottom">
+    <div class="container">
+      <h3 class="services-subtitle"> Our Commercial & Residential cleaning services include but are not limited to:</h3>
+      <div class="row">
+        <div class="col-md-2 service-item text-center">
+          <img class="img-fluid img-service " src="../images/cleaning-10.svg" />
+          <p class="service-text">Professional Disinfecting</p>
+        </div>
+        <div class="col-md-2 service-item text-center">
+          <img class="img-fluid img-service" src="../images/maid.svg" />
+          <p class="service-text">Floor Cleaning of All Types</p>
+        </div>
+        <div class="col-md-2 service-item text-center">
+          <img class="img-fluid img-service" src="../images/maid-2.svg" />
+          <p class="service-text">Cleaning and Organizing</p>
+        </div>
+        <div class="col-md-2 service-item text-center">
+          <img class="img-fluid img-service" src="../images/mover.svg" />
+          <p class="service-text">Move-in & Move-out</p>
+        </div>
+      </div>
 
-    <h5>
-      Our Commercial & Residential cleaning services include but are not limited to:
-    </h5>
-    <ul>
-      <li>Dusting and Sanitizating</li>
-      <li>Floor Cleaning
-        <ul>
-          <li>laminate</li>
-          <li>tile</li>
-          <li>hardwood</li>
-          <li>carpet</li>
-        </ul>
-      <li>Bathrooms</li>
-      <li>Living Spaces</li>
-      <b>and more!</b>
-      </li>
-    </ul>
-    <h5>We work Move-ins and Move-outs</h5>
-    <h5>Set Up and Take Down of Parties & other Events</h5>
-    <h5>If there is a task we can't perform we can refer you someone who can, within our network!</h5>
+      <div class="row">
+        <div class="col-md-2 service-item text-center">
+          <img class="img-fluid img-service" src="../images/multiple-users-silhouette.svg" />
+          <p class="service-text">Amazingly Experienced Team</p>
+        </div>
+        <div class="col-md-2 service-item text-center">
+          <img class="img-fluid mx-auto img-service" src="../images/balloons.svg" />
+          <p class="service-text">Event Set-up & Take Down</p>
+        </div>
+        <div class="col-md-2 service-item text-center">
+          <img class="img-fluid img-service" src="../images/molecular.svg" />
+          <p class="service-text">Referals</p>
+        </div>
+      </div>
+      <div class="text-muted text-right mt-3 mb-3">*Icons made by <a class="text-muted" href="https://www.flaticon.com/authors/freepik" title=" Freepik "> Freepik </a> from <a class="text-muted" href="https://www.flaticon.com/" title=" Flaticon ">
+          www.flaticon.com</a>
+      </div>
+    </div>
   </div>
+
+  <footer class="footer">
+    <p class="text-muted text-center">This page was created by
+      <a class="text-muted" href="https://github.com/mrodriguez3313"> Marco Rodriguez </a> and <a class="text-muted" href="https://github.com/alancastilleja"> Alan Castilleja.</a>
+    </p>
+  </footer>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
