@@ -36,7 +36,7 @@
         <h1 class="title">Contact Us</h1>
         <!--gonna add some formatting to the form in a bit-->
         <div class="form">
-          <form action="mailto:#" method="POST" enctype="text/plain">
+          <form action="mailto:#" method="POST" enctype="multipart/form-data" name="EmailForm">
             <div class="form-group">
               <label for="exampleFormControlInput1">Name</label>
               <input type='text' class="form-control" placeholder="First Name/Last Name" required>
@@ -47,7 +47,7 @@
             </div>
             <div class="form-group">
               <label for="exampleFormControlSelect2">Type of Service</label>
-              <select multiple class="form-control" id="exampleFormControlSelect2">
+              <select multiple class="form-control" id="exampleFormControlSelect2" required>
                 <option>Professional Disinfecting</option>
                 <option>Event Setup and Take Down</option>
                 <option>Floor Cleaning</option>
