@@ -17,37 +17,49 @@
 </head>
 <body class="container-flex">
     <div class="border-bottom">
-        <div class="navbar" id="navbarText">
-          <a class="nav-item contact-header">📞 (925) 848-6748</a>
-          <nav class="navbar justify-content-end">
+      <nav class="navbar navbar-expand-lg navbar-default navbar-light" id="navbarText">
+        <a class="navbar-brand contact-header">📞 (925) 848-6748</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse justify-content-end" id="navbarNav">
+          <div class="navbar-nav">
             <a class="nav-item nav-link" href="../../index.html">Home</a>
             <a class="nav-item nav-link" href="">Services</a>
             <a class="nav-item nav-link" href="about.html">About Us</a>
             <a class="nav-item nav-link active disabled" href="contact.html">Contact</a>
-          </nav>
+          </div>
         </div>
+      </nav>
       </div>
       <div class="container">
         <h1 class="title">Contact Us</h1>
         <!--gonna add some formatting to the form in a bit-->
         <div class="form">
-          <form action="mailto:#" method="POST" enctype="text/plain">
-            <label for="YName">Your Name:</label>
-            <input type="text" name="YourName" value=""><br>
-            <label for="Email">Your Email:</label>
-            <input type="email" name="YourEmail" value=""><br>
-            <label for="service">What service are you looking for?</label>
-            <select id="service" name="service">
-              <option value="Dusting">Dusting and Sanitzing</option>
-              <option value="Floor">Floor Cleaning</option>
-              <option value="bath">Bathroom</option>
-              <option value="Living">Living Space</option>
-              <option value="other">Other</option>
-            </select>
-            <br>
-            <label for="message">Your Message:</label>
-            <textarea name="name" cols="30" rows="5"></textarea><br>
-            <input type="submit" name="">
+          <form action="mailto:#" method="POST" enctype="multipart/form-data" name="EmailForm">
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Name</label>
+              <input type='text' class="form-control" placeholder="First Name/Last Name" required>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect2">Type of Service</label>
+              <select multiple class="form-control" id="exampleFormControlSelect2" required>
+                <option>Professional Disinfecting</option>
+                <option>Event Setup and Take Down</option>
+                <option>Floor Cleaning</option>
+                <option>Move In & Move Out</option>
+                <option>Cleaning and Organizing</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Anything else we need to know?</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Special instructions go here"></textarea>
+            </div>
+            <input type="submit" name="" value="Submit">
         </form>
         </div>
       </div>
