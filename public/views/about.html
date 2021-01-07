@@ -8,6 +8,8 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500&family=Arizonia&family=Dancing+Script:wght@700&family=Gabriela&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../styles/styles.css" />
 
   <title>Top To Bottom Cleaning</title>
@@ -15,24 +17,29 @@
 
 <body class="container-flex">
   <div class="border-bottom">
-    <div class="navbar" id="navbarText">
-      <a class="nav-item contact-header">📞 (925) 848-6748</a>
-      <nav class="navbar justify-content-end">
-        <a class="nav-item nav-link" href="../../index.html">Home</a>
-        <a class="nav-item nav-link " href="services.html">Services</a>
-        <a class="nav-item nav-link active disabled" href="about.html">About Us</a>
-        <a class="nav-item nav-link " href="contact.html">Contact</a>
-      </nav>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-default navbar-light" id="navbarText">
+      <a class="navbar-brand contact-header">📞 (925) 848-6748</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-end" id="navbarNav">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="../../index.html">Home</a>
+          <a class="nav-item nav-link active" href="">Services</a>
+          <a class="nav-item nav-link" href="about.html">About Us</a>
+          <a class="nav-item nav-link" href="contact.html">Contact</a>
+        </div>
+      </div>
+    </nav>
   </div>
 
   <div class="container">
-    <h1>About Us</h1>
-    <h5>From Top to Bottom Cleaning Service is a family owned and operated business that strives to keep your home as clean as theirs! They mainly operate in East Contra Costa County like Antioch and Oakley, but it is not rare to see them as far as
+    <h1 class="display-3 title">About Us</h1>
+    <h5>From Top to Bottom Cleaning Service is a family owned and operated business that strives to keep your home as clean as ours! We mainly operate in East Contra Costa County area like Antioch and Oakley, but it is not rare to see us as far as
       Martinez, San Ramon, and Livermore.
     </h5>
 
-    <h5>The first step in getting a cleaning is setting up a free estimate. This is where you explain to the us what it is you would like done. From there they let you know how much it would roughly cost and when would be the best day to do the
+    <h5>The first step in getting a cleaning is setting up a free estimate. This is where you show us what it is you would like serviced. From there we let you know how much it would cost and when would be the best day to do the
       cleaning.</h5>
     <div class="container">
       <div class="row">
@@ -40,25 +47,8 @@
           <div class="card" style="width: 18rem;">
             <img class="card-img-top" src="..." alt="Card image cap">
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="..." alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
+              <h5>Owner - Estela Gonzalez</h5>
+              <p class="card-text"></p>
             </div>
           </div>
         </div>
@@ -66,7 +56,11 @@
     </div>
   </div>
 
-
+  <footer class="footer">
+    <p class="text-muted text-center">This page was created by
+      <a class="text-muted" href="https://github.com/mrodriguez3313"> Marco Rodriguez </a> and <a class="text-muted" href="https://github.com/alancastilleja"> Alan Castilleja.</a>
+    </p>
+  </footer>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
